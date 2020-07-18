@@ -35,6 +35,7 @@
   </div>
 </template>
 
+
 <script>
 import DestinationCard from './components/DestinationCard'
 export default {
