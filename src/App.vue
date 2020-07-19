@@ -1,96 +1,124 @@
 <template>
-  <div id="app">
-    <div class="bg-gray-100 flex">
-      <div class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12">
-        <div class="xl:max-w-lg xl:ml-auto">
-          <img class="h-10" src="/img/logo-blue.svg" alt="Workcation">
-          <img class="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-72 sm:w-full sm:object-cover sm:object-center lg:hidden" src="/img/beach-work.jpg" alt="Woman workcationing on the beach">
-          <h1 class="mt-6 text-2xl font-bold text-gray-900 leading-tight sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl">
-            You can work from anywhere.
-            <br class="hidden lg:inline"><span class="text-brand-blue">Take advantage of it.</span>
-          </h1>
-          <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
-            Workcation helps you find work-friendly rentals in beautiful locations so you can enjoy some nice weather even when you're not on vacation.
-          </p>
-          <div class="mt-4 sm:mt-6">
-            <a href="#" class="btn bg-brand-blue text-white shadow-lg sm:text-base">Book your escape</a>
+  <div class="h-screen flex flex-col">
+    <!-- Header -->
+    <header class="flex">
+      <!-- User dropdown -->
+      <div class="w-64 flex-shrink-0 px-4 py-3 bg-gray-800">
+        <button class="w-full flex items-center">
+          <img
+            class="h-8 w-8 rounded-full object-cover"
+            src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=144&h=144&q=80"
+            alt=""
+          />
+          <span class="ml-4 mr-2 text-sm font-medium text-white">Monica White</span>
+          <svg
+            class="ml-auto h-5 w-5 stroke-current text-gray-400"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
+      </div>
+      <!-- Menu Navbar -->
+      <div class="flex flex-1 items-center justify-between px-6 bg-gray-700">
+        <nav class="flex">
+          <a
+            href="#"
+            class="inline-block px-3 py-2 bg-gray-800 rounded-lg leading-none text-sm font-medium text-white"
+            >Mailbox</a
+          >
+          <a
+            href="#"
+            class="inline-block ml-2 px-3 py-2 rounded-lg leading-none text-sm font-medium text-white hover:bg-gray-600"
+            >Customers</a
+          >
+          <a
+            href="#"
+            class="inline-block ml-2 px-3 py-2 rounded-lg leading-none text-sm font-medium text-white hover:bg-gray-600"
+            >Reporting</a
+          >
+          <a
+            href="#"
+            class="inline-block ml-2 px-3 py-2 rounded-lg leading-none text-sm font-medium text-white hover:bg-gray-600"
+            >Manage</a
+          >
+        </nav>
+        <!-- Search + Interactive Icons -->
+        <div class="flex items-center">
+          <div class="relative w-64">
+            <span class="absolute inset-y-0 left-0 flex items-center pl-2">
+              <svg
+                class="h-5 w-5 fill-current text-gray-500"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <input
+              class="block pl-10 pr-4 py-2 leading-tight w-full bg-gray-900 rounded-lg text-sm placeholder-gray-400 text-white focus:outline-none focus:bg-white focus:placeholder-gray-700 focus:text-gray-900"
+              placeholder="Search"
+              type="text"
+            />
           </div>
+          <button class="ml-5 text-gray-400 hover:text-gray-200">
+            <svg
+              class="h-5 w-5 fill-current"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z"
+              ></path>
+            </svg>
+          </button>
+          <button class="ml-4 text-gray-400 hover:text-gray-200">
+            <svg
+              class="h-5 w-5 fill-current"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
         </div>
       </div>
-      <div class="hidden lg:block lg:w-1/2 lg:relative">
-        <img class="absolute inset-0 h-full w-full object-cover object-center" src="/img/beach-work.jpg" alt="Woman workcationing on the beach">
-      </div>
+    </header>
+    <!-- Sidebar -->
+    <div class="w-64 bg-gray-100">
+
     </div>
-    <div>
-      <div class="max-w-md sm:max-w-xl lg:max-w-6xl mx-auto px-8 lg:px-12 py-8">
-        <h2 class="text-xl text-gray-900">Popular destinations</h2>
-        <p class="text-gray-600">A selection of great work-friendly cities with lots to see and explore.</p>
-        <div class="flex flex-wrap -mx-4">
-          <div class="mt-6 w-full px-4 lg:w-1/2 xl:w-1/3" v-for="destination in popularDestinations" v-bind:key="destination.city">
-            <DestinationCard :destination="destination"/>
-          </div>
-        </div>
-      </div>
-    </div>
+    <!-- Main -->
+    <main>
+      <!-- Inbox Preview Emails -->
+      <div></div>
+      <!-- Inbox Email Thread -->
+      <div></div>
+    </main>
   </div>
 </template>
 
 <script>
-import DestinationCard from './components/DestinationCard'
 export default {
   name: 'app',
-  components: {
-    DestinationCard,
-  },
+  components: {},
   data() {
-    return {
-      popularDestinations: [
-        {
-          city: 'Toronto',
-          averagePrice: 120,
-          propertyCount: 76,
-          imageUrl: '/img/toronto.jpg',
-          imageAlt: 'Toronto skyline',
-        },
-        {
-          city: 'Malibu',
-          averagePrice: 215,
-          propertyCount: 43,
-          imageUrl: '/img/malibu.jpg',
-          imageAlt: 'Cliff in Malibu',
-        },
-        {
-          city: 'Chicago',
-          averagePrice: 130,
-          propertyCount: 115,
-          imageUrl: '/img/chicago.jpg',
-          imageAlt: 'Chicago skyline',
-        },
-        {
-          city: 'Seattle',
-          averagePrice: 135,
-          propertyCount: 63,
-          imageUrl: '/img/seattle.jpg',
-          imageAlt: 'Seattle skyline',
-        },
-        {
-          city: 'Colorado',
-          averagePrice: 85,
-          propertyCount: 47,
-          imageUrl: '/img/colorado.jpg',
-          imageAlt: 'Lake in Colorado',
-        },
-        {
-          city: 'Miami',
-          averagePrice: 115,
-          propertyCount: 86,
-          imageUrl: '/img/miami.jpg',
-          imageAlt: 'Beach in Miami',
-        },
-      ]
-    }
-  }
-}
+    return {};
+  },
+};
 </script>
 
 <style src="./assets/tailwind.css"></style>
