@@ -7,7 +7,8 @@
 </template>
 
 <script>
-import Navbar from './components/Navbar'
+// import AccountDropdown from './components/AccountDropdown'
+import Navbar from './components/Navbar.vue'
 export default {
   name: 'app',
   components: {
