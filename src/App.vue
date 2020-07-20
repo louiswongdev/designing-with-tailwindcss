@@ -10,7 +10,7 @@
             src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=144&h=144&q=80"
             alt=""
           />
-          <span class="ml-4 mr-2 text-sm font-medium text-white"
+          <span class="ml-4 mr-2 text-sm font-normal text-white"
             >Monica White</span
           >
           <svg
@@ -136,10 +136,10 @@
               <span class="flex items-center">
                 <svg
                   class="h-8 w-8 fill-current text-gray-500"
-                  viewBox="0 0 20 20"
+                  viewBox="0 0 26 26"
                 >
                   <path
-                    d="M3 6a3 3 0 013-3h10a1 1 0 01.8 1.6L14.25 8l2.55 3.4A1 1 0 0116 13H6a1 1 0 00-1 1v3a1 1 0 11-2 0V6z"
+                    d="M5 13.397v-9.859c0.44-0.218 1.365-0.538 3-0.538 1.281 0 2.361 0.421 3.629 0.928 1.232 0.493 2.652 1.072 4.371 1.072 1.298 0 2.278-0.175 3-0.397v9.859c-0.44 0.218-1.365 0.538-3 0.538-1.281 0-2.361-0.421-3.629-0.928-1.232-0.493-2.652-1.072-4.371-1.072-1.298 0-2.278 0.175-3 0.397zM5 22v-6.462c0.44-0.218 1.365-0.538 3-0.538 1.281 0 2.361 0.421 3.629 0.928 1.232 0.493 2.652 1.072 4.371 1.072 3.247 0 4.507-1.093 4.707-1.293 0.195-0.195 0.293-0.451 0.293-0.707v-12c0-0.552-0.448-1-1-1-0.265 0-0.506 0.103-0.685 0.272-0.096 0.078-0.984 0.728-3.315 0.728-1.281 0-2.361-0.421-3.629-0.928-1.232-0.493-2.652-1.072-4.371-1.072-3.247 0-4.507 1.093-4.707 1.293-0.195 0.195-0.293 0.451-0.293 0.707v19c0 0.552 0.448 1 1 1s1-0.448 1-1z"
                   ></path>
                 </svg>
                 <span class="ml-2 text-gray-700">Flagged</span>
@@ -151,14 +151,11 @@
             >
               <span class="flex items-center">
                 <svg
-                  class="h-8 w-8 fill-current text-gray-500"
-                  viewBox="0 0 20 20"
+                  class=" h-8 w-8 fill-current text-gray-500"
+                  viewBox="0 0 28 28"
                 >
                   <path
-                    d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z"
-                  ></path>
-                  <path
-                    d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
+                    d="M11 3h-7c-0.828 0-1.58 0.337-2.121 0.879s-0.879 1.293-0.879 2.121v14c0 0.828 0.337 1.58 0.879 2.121s1.293 0.879 2.121 0.879h14c0.828 0 1.58-0.337 2.121-0.879s0.879-1.293 0.879-2.121v-7c0-0.552-0.448-1-1-1s-1 0.448-1 1v7c0 0.276-0.111 0.525-0.293 0.707s-0.431 0.293-0.707 0.293h-14c-0.276 0-0.525-0.111-0.707-0.293s-0.293-0.431-0.293-0.707v-14c0-0.276 0.111-0.525 0.293-0.707s0.431-0.293 0.707-0.293h7c0.552 0 1-0.448 1-1s-0.448-1-1-1zM17.793 1.793l-9.5 9.5c-0.122 0.121-0.217 0.28-0.263 0.465l-1 4c-0.039 0.15-0.042 0.318 0 0.485 0.134 0.536 0.677 0.862 1.213 0.728l4-1c0.167-0.041 0.33-0.129 0.465-0.263l9.5-9.5c0.609-0.609 0.914-1.41 0.914-2.207s-0.305-1.598-0.914-2.207-1.411-0.915-2.208-0.915-1.598 0.305-2.207 0.914zM19.207 3.207c0.219-0.219 0.504-0.328 0.793-0.328s0.574 0.109 0.793 0.328 0.328 0.504 0.328 0.793-0.109 0.574-0.328 0.793l-9.304 9.304-2.114 0.529 0.529-2.114z"
                   ></path>
                 </svg>
                 <span class="ml-2 text-gray-700">Drafts</span>
@@ -175,10 +172,10 @@
               <span class="flex items-center">
                 <svg
                   class="h-8 w-8 fill-current text-gray-500 "
-                  viewBox="0 0 20 20"
+                  viewBox="0 0 26 26"
                 >
                   <path
-                    d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                    d="M21 21v-2c0-1.38-0.561-2.632-1.464-3.536s-2.156-1.464-3.536-1.464h-8c-1.38 0-2.632 0.561-3.536 1.464s-1.464 2.156-1.464 3.536v2c0 0.552 0.448 1 1 1s1-0.448 1-1v-2c0-0.829 0.335-1.577 0.879-2.121s1.292-0.879 2.121-0.879h8c0.829 0 1.577 0.335 2.121 0.879s0.879 1.292 0.879 2.121v2c0 0.552 0.448 1 1 1s1-0.448 1-1zM17 7c0-1.38-0.561-2.632-1.464-3.536s-2.156-1.464-3.536-1.464-2.632 0.561-3.536 1.464-1.464 2.156-1.464 3.536 0.561 2.632 1.464 3.536 2.156 1.464 3.536 1.464 2.632-0.561 3.536-1.464 1.464-2.156 1.464-3.536zM15 7c0 0.829-0.335 1.577-0.879 2.121s-1.292 0.879-2.121 0.879-1.577-0.335-2.121-0.879-0.879-1.292-0.879-2.121 0.335-1.577 0.879-2.121 1.292-0.879 2.121-0.879 1.577 0.335 2.121 0.879 0.879 1.292 0.879 2.121z"
                   ></path>
                 </svg>
                 <span class="ml-2 text-gray-700">Assigned</span>
@@ -195,12 +192,10 @@
               <span class="flex items-center">
                 <svg
                   class="h-8 w-8 fill-current text-gray-500"
-                  viewBox="0 0 20 20"
+                  viewBox="0 0 28 28"
                 >
                   <path
-                    fill-rule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                    clip-rule="evenodd"
+                    d="M21 11.080v0.92c-0.001 2.485-1.009 4.733-2.64 6.362s-3.88 2.634-6.365 2.632-4.734-1.009-6.362-2.64-2.634-3.879-2.633-6.365 1.009-4.733 2.64-6.362 3.88-2.634 6.365-2.633c1.33 0.001 2.586 0.289 3.649 0.775 0.502 0.23 1.096 0.008 1.325-0.494s0.008-1.096-0.494-1.325c-1.327-0.606-2.866-0.955-4.479-0.956-3.037-0.002-5.789 1.229-7.78 3.217s-3.224 4.74-3.226 7.777 1.229 5.789 3.217 7.78 4.739 3.225 7.776 3.226 5.789-1.229 7.78-3.217 3.225-4.739 3.227-7.777v-0.92c0-0.552-0.448-1-1-1s-1 0.448-1 1zM21.293 3.293l-9.293 9.302-2.293-2.292c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414l3 3c0.391 0.391 1.024 0.39 1.415 0l10-10.010c0.39-0.391 0.39-1.024-0.001-1.414s-1.024-0.39-1.414 0.001z"
                   ></path>
                 </svg>
                 <span class="ml-2 text-gray-700">Closed</span>
@@ -245,11 +240,15 @@
         </nav>
       </div>
       <!-- Main -->
-      <main class="bg-gray-200 flex flex-1">
+      <main class="flex flex-1 bg-gray-200">
         <!-- Inbox Preview Emails -->
-        <div class="flex flex-col w-full max-w-xs flex-grow border-l border-r ">
+        <div
+          class="relative flex flex-col w-full max-w-xs flex-grow border-l border-r bg-gray-200"
+        >
           <!-- Sort Date row -->
-          <div class="flex-shrink-0 px-4 py-2 flex items-center justify-between border-b">
+          <div
+            class="flex-shrink-0 px-4 py-2 flex items-center justify-between border-b"
+          >
             <button
               class="flex items-center text-xs font-semibold text-gray-600"
             >
@@ -267,27 +266,88 @@
             </button>
             <button>
               <svg
-                class="ml-auto h-5 w-5 stroke-current text-gray-500"
-                fill="currentColor"
+                class="pt-1 h-6 w-6 fill-current text-gray-500"
+                viewBox="0 0 40 40"
               >
-                <path
-                  d="M9.17003 7.40006C9.02003 7.40006 8.86003 7.34006 8.75003 7.22006L6.57006 5.04793V20.4C6.57006 20.73 6.30006 21 5.97006 21C5.64006 21 5.37006 20.73 5.37006 20.4V5.04787L3.19003 7.22006C2.96003 7.46006 2.58003 7.45006 2.34003 7.22006C2.10003 6.99006 2.11003 6.61006 2.34003 6.37006L5.54003 3.17006C5.77003 2.94006 6.15003 2.94006 6.39003 3.17006L9.59003 6.37006C9.82003 6.60006 9.82003 6.98006 9.59003 7.22006C9.48003 7.34006 9.32003 7.40006 9.17003 7.40006ZM21.97 12.5999H9.17001C8.84001 12.5999 8.57001 12.3299 8.57001 11.9999C8.57001 11.6699 8.84001 11.3999 9.17001 11.3999H21.97C22.3 11.3999 22.57 11.6699 22.57 11.9999C22.57 12.3299 22.3 12.5999 21.97 12.5999ZM9.17001 16.8001H17.97C18.3 16.8001 18.57 16.5301 18.57 16.2001C18.57 15.8701 18.3 15.6001 17.97 15.6001H9.17001C8.84001 15.6001 8.57001 15.8701 8.57001 16.2001C8.57001 16.5301 8.84001 16.8001 9.17001 16.8001ZM9.17001 21H13.97C14.3 21 14.57 20.73 14.57 20.4C14.57 20.07 14.3 19.8 13.97 19.8H9.17001C8.84001 19.8 8.57001 20.07 8.57001 20.4C8.57001 20.73 8.84001 21 9.17001 21Z"
-                />
+                <path d="M10 24v-24h-4v24h-5l7 7 7-7h-5z"></path>
+                <path d="M14 18h18v4h-18v-4z"></path>
+                <path d="M14 12h14v4h-14v-4z"></path>
+                <path d="M14 6h10v4h-10v-4z"></path>
+                <path d="M14 0h6v4h-6v-4z"></path>
               </svg>
-              <!-- <svg
-                class="ml-auto h-6 w-6 stroke-current text-gray-500"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-              >
-                <path
-                  d="M3 3a1 1 0 000 2h11a1 1 0 100-2H3zM3 7a1 1 0 000 2h5a1 1 0 000-2H3zM3 11a1 1 0 100 2h4a1 1 0 100-2H3zM13 16a1 1 0 102 0v-5.586l1.293 1.293a1 1 0 001.414-1.414l-3-3a1 1 0 00-1.414 0l-3 3a1 1 0 101.414 1.414L13 10.414V16z"
-                ></path>
-              </svg> -->
             </button>
           </div>
           <!-- Email preview block -->
           <div class="flex-1 overflow-y-auto">
-            <a href="#" class="block px-6 pt-3 pb-4 bg-white border-b">
+            <div class="border-l-4 border-indigo-500">
+              <a href="#" class="block px-6 pt-3 pb-4 border-b bg-gray-100">
+                <div class="flex justify-between">
+                  <span class="text-sm font-semibold text-gray-900"
+                    >Jonathan Maberry</span
+                  >
+                  <span class="text-sm text-gray-600">2 days ago</span>
+                </div>
+                <p class="text-sm text-gray-900">
+                  Author Discount?
+                </p>
+                <p class="mt-2 text-sm text-gray-600">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                  gravida tristique lectus. Nullam in lacus dui...
+                </p>
+              </a>
+            </div>
+            <div class="">
+              <a href="#" class="block px-6 pt-3 pb-4 bg-white border-b hover:bg-indigo-100">
+                <div class="flex justify-between">
+                  <span class="text-sm font-semibold text-gray-900"
+                    >Dan Brown</span
+                  >
+                  <span class="text-sm text-gray-600">2 days ago</span>
+                </div>
+                <p class="text-sm text-gray-900">
+                  Refund
+                </p>
+                <p class="mt-2 text-sm text-gray-600">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                  gravida tristique lectus. Nullam in lacus dui...
+                </p>
+              </a>
+            </div>
+            <div>
+              <a href="#" class="block px-6 pt-3 pb-4 bg-white border-b hover:bg-indigo-100">
+                <div class="flex justify-between">
+                  <span class="text-sm font-semibold text-gray-900"
+                    >Jonathan Maberry</span
+                  >
+                  <span class="text-sm text-gray-600">2 days ago</span>
+                </div>
+                <p class="text-sm text-gray-900">
+                  Refund
+                </p>
+                <p class="mt-2 text-sm text-gray-600">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                  gravida tristique lectus. Nullam in lacus dui...
+                </p>
+              </a>
+            </div>
+            <div class="border-l-4 border-indigo-500">
+              <a href="#" class="block px-6 pt-3 pb-4 bg-white border-b hover:bg-indigo-100">
+                <div class="flex justify-between">
+                  <span class="text-sm font-semibold text-gray-900"
+                    >Jonathan Maberry</span
+                  >
+                  <span class="text-sm text-gray-600">2 days ago</span>
+                </div>
+                <p class="text-sm text-gray-900">
+                  Refund
+                </p>
+                <p class="mt-2 text-sm text-gray-600">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                  gravida tristique lectus. Nullam in lacus dui...
+                </p>
+              </a>
+            </div>
+            <a href="#" class="block px-6 pt-3 pb-4 bg-white border-b hover:bg-indigo-100">
               <div class="flex justify-between">
                 <span class="text-sm font-semibold text-gray-900"
                   >Jonathan Maberry</span
@@ -302,67 +362,7 @@
                 gravida tristique lectus. Nullam in lacus dui...
               </p>
             </a>
-            <a href="#" class="block px-6 pt-3 pb-4 bg-white border-b">
-              <div class="flex justify-between">
-                <span class="text-sm font-semibold text-gray-900"
-                  >Jonathan Maberry</span
-                >
-                <span class="text-sm text-gray-600">2 days ago</span>
-              </div>
-              <p class="text-sm text-gray-900">
-                Refund
-              </p>
-              <p class="mt-2 text-sm text-gray-600">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                gravida tristique lectus. Nullam in lacus dui...
-              </p>
-            </a>
-            <a href="#" class="block px-6 pt-3 pb-4 bg-white border-b">
-              <div class="flex justify-between">
-                <span class="text-sm font-semibold text-gray-900"
-                  >Jonathan Maberry</span
-                >
-                <span class="text-sm text-gray-600">2 days ago</span>
-              </div>
-              <p class="text-sm text-gray-900">
-                Refund
-              </p>
-              <p class="mt-2 text-sm text-gray-600">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                gravida tristique lectus. Nullam in lacus dui...
-              </p>
-            </a>
-            <a href="#" class="block px-6 pt-3 pb-4 bg-white border-b">
-              <div class="flex justify-between">
-                <span class="text-sm font-semibold text-gray-900"
-                  >Jonathan Maberry</span
-                >
-                <span class="text-sm text-gray-600">2 days ago</span>
-              </div>
-              <p class="text-sm text-gray-900">
-                Refund
-              </p>
-              <p class="mt-2 text-sm text-gray-600">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                gravida tristique lectus. Nullam in lacus dui...
-              </p>
-            </a>
-            <a href="#" class="block px-6 pt-3 pb-4 bg-white border-b">
-              <div class="flex justify-between">
-                <span class="text-sm font-semibold text-gray-900"
-                  >Jonathan Maberry</span
-                >
-                <span class="text-sm text-gray-600">2 days ago</span>
-              </div>
-              <p class="text-sm text-gray-900">
-                Refund
-              </p>
-              <p class="mt-2 text-sm text-gray-600">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                gravida tristique lectus. Nullam in lacus dui...
-              </p>
-            </a>
-            <a href="#" class="block px-6 pt-3 pb-4 bg-white border-b">
+            <a href="#" class="block px-6 pt-3 pb-4 bg-white border-b hover:bg-indigo-100">
               <div class="flex justify-between">
                 <span class="text-sm font-semibold text-gray-900"
                   >Jonathan Maberry</span
@@ -380,7 +380,227 @@
           </div>
         </div>
         <!-- Inbox Email Thread -->
-        <div class="flex-1 p-8"></div>
+        <div class="flex-1 flex flex-col w-0">
+          <div class="relative shadow-md">
+            <!-- Email Thread Action Icons -->
+            <div class="px-5 py-4 flex items-center bg-gray-100 border-b">
+              <button>
+                <svg
+                  class="h-6 w-6 fill-current text-gray-600"
+                  viewBox="0 0 40 40"
+                >
+                  <path
+                    d="M16 32c8.837 0 16-7.163 16-16s-7.163-16-16-16-16 7.163-16 16 7.163 16 16 16zM16 3c7.18 0 13 5.82 13 13s-5.82 13-13 13-13-5.82-13-13 5.82-13 13-13z"
+                  ></path>
+                  <path
+                    d="M20.914 9.914l-2.829-2.829-8.914 8.914 8.914 8.914 2.828-2.828-6.086-6.086z"
+                  ></path>
+                </svg>
+              </button>
+              <button class="ml-6">
+                <svg
+                  class="pt-0 h-6 w-6 fill-current text-gray-600"
+                  viewBox="0 0 28 28"
+                >
+                  <path
+                    d="M21.297 14.117c0.583-0.586 0.874-1.352 0.874-2.115 0.001-0.764-0.29-1.532-0.874-2.12l-8.59-8.59c-0.181-0.18-0.431-0.292-0.707-0.292h-10c-0.552 0-1 0.448-1 1v10c0 0.256 0.098 0.512 0.293 0.708l8.592 8.582c0.586 0.585 1.356 0.878 2.122 0.877s1.536-0.294 2.12-0.879zM19.883 12.703l-7.17 7.17c-0.196 0.196-0.45 0.294-0.707 0.294s-0.512-0.097-0.707-0.292l-8.299-8.29v-8.585h8.586l8.297 8.297c0.192 0.193 0.289 0.447 0.289 0.704s-0.097 0.509-0.289 0.702zM7 8c0.552 0 1-0.448 1-1s-0.448-1-1-1-1 0.448-1 1 0.448 1 1 1z"
+                  ></path>
+                </svg>
+              </button>
+              <button class="ml-6">
+                <svg
+                  class="h-6 w-6 fill-current text-gray-600"
+                  viewBox="0 0 28 28"
+                >
+                  <path
+                    d="M21 21v-2c0-1.38-0.561-2.632-1.464-3.536s-2.156-1.464-3.536-1.464h-8c-1.38 0-2.632 0.561-3.536 1.464s-1.464 2.156-1.464 3.536v2c0 0.552 0.448 1 1 1s1-0.448 1-1v-2c0-0.829 0.335-1.577 0.879-2.121s1.292-0.879 2.121-0.879h8c0.829 0 1.577 0.335 2.121 0.879s0.879 1.292 0.879 2.121v2c0 0.552 0.448 1 1 1s1-0.448 1-1zM17 7c0-1.38-0.561-2.632-1.464-3.536s-2.156-1.464-3.536-1.464-2.632 0.561-3.536 1.464-1.464 2.156-1.464 3.536 0.561 2.632 1.464 3.536 2.156 1.464 3.536 1.464 2.632-0.561 3.536-1.464 1.464-2.156 1.464-3.536zM15 7c0 0.829-0.335 1.577-0.879 2.121s-1.292 0.879-2.121 0.879-1.577-0.335-2.121-0.879-0.879-1.292-0.879-2.121 0.335-1.577 0.879-2.121 1.292-0.879 2.121-0.879 1.577 0.335 2.121 0.879 0.879 1.292 0.879 2.121z"
+                  ></path>
+                </svg>
+              </button>
+              <button class="ml-6">
+                <svg
+                  class="h-6 w-6 fill-current text-gray-600"
+                  viewBox="0 0 28 28"
+                >
+                  <path
+                    d="M20 15v4c0 0.276-0.111 0.525-0.293 0.707s-0.431 0.293-0.707 0.293h-14c-0.276 0-0.525-0.111-0.707-0.293s-0.293-0.431-0.293-0.707v-4c0-0.552-0.448-1-1-1s-1 0.448-1 1v4c0 0.828 0.337 1.58 0.879 2.121s1.293 0.879 2.121 0.879h14c0.828 0 1.58-0.337 2.121-0.879s0.879-1.293 0.879-2.121v-4c0-0.552-0.448-1-1-1s-1 0.448-1 1zM13 12.586v-9.586c0-0.552-0.448-1-1-1s-1 0.448-1 1v9.586l-3.293-3.293c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414l5 5c0.092 0.092 0.202 0.166 0.324 0.217s0.253 0.076 0.383 0.076c0.256 0 0.512-0.098 0.707-0.293l5-5c0.391-0.391 0.391-1.024 0-1.414s-1.024-0.391-1.414 0z"
+                  ></path>
+                </svg>
+              </button>
+              <button class="ml-6">
+                <svg
+                  class="h-6 w-6 fill-current text-gray-600"
+                  viewBox="0 0 28 28"
+                >
+                  <path
+                    d="M10.001 7.8c-1.215 0-2.201 0.985-2.201 2.2s0.986 2.2 2.201 2.2c1.215 0 2.199-0.985 2.199-2.2s-0.984-2.2-2.199-2.2zM3.001 7.8c-1.215 0-2.201 0.985-2.201 2.2s0.986 2.2 2.201 2.2c1.215 0 2.199-0.986 2.199-2.2s-0.984-2.2-2.199-2.2zM17.001 7.8c-1.215 0-2.201 0.985-2.201 2.2s0.986 2.2 2.201 2.2c1.215 0 2.199-0.985 2.199-2.2s-0.984-2.2-2.199-2.2z"
+                  ></path>
+                </svg>
+              </button>
+              <button class="ml-auto ">
+                <svg
+                  class="h-4 w-4 stroke-current text-gray-600"
+                  fill="currentColor"
+                  viewBox="0 0 22 22"
+                >
+                  <path
+                    d="M5.293 9.707l6 6c0.391 0.391 1.024 0.391 1.414 0l6-6c0.391-0.391 0.391-1.024 0-1.414s-1.024-0.391-1.414 0l-5.293 5.293-5.293-5.293c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414z"
+                  ></path>
+                </svg>
+              </button>
+              <button class="ml-4">
+                <svg
+                  class="h-4 w-4 stroke-current text-gray-600"
+                  fill="currentColor"
+                  viewBox="0 0 22 22"
+                >
+                  <path
+                    d="M18.707 14.293l-6-6c-0.391-0.391-1.024-0.391-1.414 0l-6 6c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l5.293-5.293 5.293 5.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+            <!-- Email Title Section -->
+            <div class="flex items-center justify-between bg-white px-5 p-4">
+              <h3 class="text-xl text-gray-900 truncate">
+                Re: Author Discount?
+              </h3>
+              <div class="flex-shrink-0 ml-4">
+                <span class="">#3822</span>
+                <span
+                  class="text-xs ml-3 font-semibold text-green-900 bg-green-200 rounded-full leading-none px-2 py-1"
+                >
+                  Action
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="p-3 flex-1 overflow-y-auto">
+            <article class="px-10 pt-6 pb-8 bg-white rounded-lg shadow">
+              <div class="flex items-center justify-between">
+                <p class="text-lg font-medium">
+                  <span class="text-gray-900">Jonathan Maberry</span>
+                  <span class="ml-1 text-gray-600">wrote</span>
+                </p>
+                <div class="flex items-center">
+                  <span class="text-sm text-gray-600">
+                    Yesterday at 8:20am
+                  </span>
+                  <img
+                    class="ml-5 h-8 w-8 rounded-full object-cover"
+                    src="https://images.unsplash.com/photo-1480455624313-e29b44bbfde1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=5&w=144&h=144&q=80"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="mt-6 text-gray-800 text-sm">
+                <p>
+                  Thanks so much!! Can't wait to try it out :)
+                </p>
+              </div>
+            </article>
+            <article class="px-10 py-6 mt-3 bg-white rounded-lg shadow">
+              <div class="flex items-center justify-between">
+                <p class="text-lg font-medium">
+                  <span class="text-gray-900">Monica White</span>
+                  <span class="ml-1 text-gray-600">replied</span>
+                </p>
+                <div class="flex items-center">
+                  <span class="text-sm text-gray-600">
+                    July 10th, 2020 at 12:21pm
+                  </span>
+                  <img
+                    class="ml-5 h-8 w-8 rounded-full object-cover"
+                    src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=144&h=144&q=80"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="mt-6 text-gray-800 text-sm">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer gravida tristique lectus. Nullam in lacus dui.
+                </p>
+                <p class="mt-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer gravida tristique lectus. Nullam in lacus dui. Sed et
+                  lorem luctus, euismod velit ac, bibendum enim. Etiam varius
+                  odio et vestibulum pretium. Nam a nisl egestas, porta augue
+                  nec, ultricies ipsum. Nulla facilisi. Etiam hendrerit aliquet
+                  varius. Integer sit amet ultrices dui.
+                </p>
+                <p class="mt-6 font-semibold text-gray-900">Monica White</p>
+                <p class="text-gray-800">Customer Service</p>
+              </div>
+            </article>
+            <article class="px-10 py-6 mt-3 bg-white rounded-lg shadow">
+              <div class="flex items-center justify-between">
+                <p class="text-lg font-medium">
+                  <span class="text-gray-900">Jonathan Maberry</span>
+                  <span class="ml-1 text-gray-600">wrote</span>
+                </p>
+                <div class="flex items-center">
+                  <span class="text-sm text-gray-600">
+                    July 2nd, 2020 at 19:21pm
+                  </span>
+                  <img
+                    class="ml-5 h-8 w-8 rounded-full object-cover"
+                    src="https://images.unsplash.com/photo-1480455624313-e29b44bbfde1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=5&w=144&h=144&q=80"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="mt-6 text-gray-800 text-sm">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer gravida tristique lectus. Nullam in lacus dui. Sed et
+                  lorem luctus, euismod velit ac, bibendum enim. Etiam varius
+                  odio et vestibulum pretium. Nam a nisl egestas, porta augue
+                  nec, ultricies ipsum. Nulla facilisi. Etiam hendrerit aliquet
+                  varius. Integer sit amet ultrices dui. Maecenas adipiscing
+                  mauris magna, eget iaculis odio faucibus quis. Nulla facilisi.
+                  Ut dapibus hendrerit ultricies. Cras facilisis congue
+                  consequat. Fusce ultrices ut dolor sit amet vehicula. Donec
+                  euismod augue leo. Nunc semper nisi eu velit consectetur, a
+                  lacinia erat aliquet.
+                </p>
+              </div>
+            </article>
+            <article class="px-10 py-6 mt-3 bg-white rounded-lg shadow">
+              <div class="flex items-center justify-between">
+                <p class="text-lg font-medium">
+                  <span class="text-gray-900">Jonathan Maberry</span>
+                  <span class="ml-1 text-gray-600">wrote</span>
+                </p>
+                <div class="flex items-center">
+                  <span class="text-sm text-gray-600">
+                    July 2nd, 2020 at 9:21am
+                  </span>
+                  <img
+                    class="ml-5 h-8 w-8 rounded-full object-cover"
+                    src="https://images.unsplash.com/photo-1480455624313-e29b44bbfde1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=5&w=144&h=144&q=80"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="mt-6 text-gray-800 text-sm">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer gravida tristique lectus. Nullam in lacus dui. Sed et
+                  lorem luctus, euismod velit ac, bibendum enim. Etiam varius
+                  odio et vestibulum pretium. Nam a nisl egestas, porta augue
+                  nec, ultricies ipsum. Nulla facilisi. Etiam hendrerit aliquet
+                  varius. Integer sit amet ultrices dui. Maecenas adipiscing
+                  mauris magna, eget iaculis odio faucibus quis. Nulla facilisi.
+                  Ut dapibus hendrerit ultricies. Cras facilisis congue
+                  consequat. Fusce ultrices ut dolor sit amet vehicula. Donec
+                  euismod augue leo. Nunc semper nisi eu velit consectetur, a
+                  lacinia erat aliquet.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
       </main>
     </div>
   </div>
