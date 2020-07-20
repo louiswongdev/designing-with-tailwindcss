@@ -100,8 +100,8 @@
       </div>
     </header>
     <!-- Sidebar -->
-    <div class="flex flex-1">
-      <div class="w-64 p-6 bg-gray-100">
+    <div class="flex flex-1 overflow-hidden">
+      <div class="w-64 p-6 bg-gray-100 overflow-y-auto">
         <nav>
           <h2
             class="text-xs font-semibold text-gray-600 uppercase tracking-wide"
@@ -135,14 +135,14 @@
             >
               <span class="flex items-center">
                 <svg
-                  class="h-8 w-8 fill-current text-gray-700"
+                  class="h-8 w-8 fill-current text-gray-500"
                   viewBox="0 0 20 20"
                 >
                   <path
                     d="M3 6a3 3 0 013-3h10a1 1 0 01.8 1.6L14.25 8l2.55 3.4A1 1 0 0116 13H6a1 1 0 00-1 1v3a1 1 0 11-2 0V6z"
                   ></path>
                 </svg>
-                <span class="ml-2 text-gray-900">Flagged</span>
+                <span class="ml-2 text-gray-700">Flagged</span>
               </span>
             </a>
             <a
@@ -151,7 +151,7 @@
             >
               <span class="flex items-center">
                 <svg
-                  class="h-8 w-8 fill-current text-gray-700"
+                  class="h-8 w-8 fill-current text-gray-500"
                   viewBox="0 0 20 20"
                 >
                   <path
@@ -161,7 +161,7 @@
                     d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
                   ></path>
                 </svg>
-                <span class="ml-2 text-gray-900">Drafts</span>
+                <span class="ml-2 text-gray-700">Drafts</span>
               </span>
               <span
                 class="inline-block px-3 text-center py-1 leading-tight text-xs font-semibold text-gray-700 bg-gray-300 rounded-full"
@@ -174,14 +174,14 @@
             >
               <span class="flex items-center">
                 <svg
-                  class="h-8 w-8 fill-current text-gray-700 "
+                  class="h-8 w-8 fill-current text-gray-500 "
                   viewBox="0 0 20 20"
                 >
                   <path
                     d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
                   ></path>
                 </svg>
-                <span class="ml-2 text-gray-900">Assigned</span>
+                <span class="ml-2 text-gray-700">Assigned</span>
               </span>
               <span
                 class="inline-block px-3 text-center py-1 leading-tight text-xs font-semibold text-gray-700 bg-gray-300 rounded-full"
@@ -194,7 +194,7 @@
             >
               <span class="flex items-center">
                 <svg
-                  class="h-8 w-8 fill-current text-gray-700"
+                  class="h-8 w-8 fill-current text-gray-500"
                   viewBox="0 0 20 20"
                 >
                   <path
@@ -203,7 +203,7 @@
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-                <span class="ml-2 text-gray-900">Closed</span>
+                <span class="ml-2 text-gray-700">Closed</span>
               </span>
             </a>
             <a
@@ -211,25 +211,176 @@
               class="mt-4 -mx-3 px-3 py-1 flex items-center justify-between text-sm font-medium hover:bg-gray-200 rounded-lg"
             >
               <span class="flex items-center">
-                <svg class="h-8 w-8 fill-current text-gray-700" viewBox="0 0 20 20">
+                <svg
+                  class="h-8 w-8 fill-current text-gray-500"
+                  viewBox="0 0 20 20"
+                >
                   <path
                     fill-rule="evenodd"
                     d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z"
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-                <span class="ml-2 text-gray-900">Junk</span>
+                <span class="ml-2 text-gray-700">Junk</span>
               </span>
             </a>
+          </div>
+
+          <h2
+            class="mt-8 text-xs font-semibold text-gray-600 uppercase tracking-wide"
+          >
+            Folders
+          </h2>
+          <div class="mt-4">
+            <a href="#" class="block text-sm font-medium text-gray-700"
+              >Refunds</a
+            >
+            <a href="#" class="mt-4 block text-sm font-medium text-gray-700"
+              >Discounts</a
+            >
+            <a href="#" class="mt-4 block text-sm font-medium text-gray-700"
+              >Bugs</a
+            >
           </div>
         </nav>
       </div>
       <!-- Main -->
       <main class="bg-gray-200 flex flex-1">
         <!-- Inbox Preview Emails -->
-        <div class=""></div>
+        <div class="flex flex-col w-full max-w-xs flex-grow border-l border-r ">
+          <!-- Sort Date row -->
+          <div class="flex-shrink-0 px-4 py-2 flex items-center justify-between border-b">
+            <button
+              class="flex items-center text-xs font-semibold text-gray-600"
+            >
+              Sort by Date
+              <svg
+                class="ml-1 h-4 w-4 stroke-current text-gray-500"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </button>
+            <button>
+              <svg
+                class="ml-auto h-5 w-5 stroke-current text-gray-500"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.17003 7.40006C9.02003 7.40006 8.86003 7.34006 8.75003 7.22006L6.57006 5.04793V20.4C6.57006 20.73 6.30006 21 5.97006 21C5.64006 21 5.37006 20.73 5.37006 20.4V5.04787L3.19003 7.22006C2.96003 7.46006 2.58003 7.45006 2.34003 7.22006C2.10003 6.99006 2.11003 6.61006 2.34003 6.37006L5.54003 3.17006C5.77003 2.94006 6.15003 2.94006 6.39003 3.17006L9.59003 6.37006C9.82003 6.60006 9.82003 6.98006 9.59003 7.22006C9.48003 7.34006 9.32003 7.40006 9.17003 7.40006ZM21.97 12.5999H9.17001C8.84001 12.5999 8.57001 12.3299 8.57001 11.9999C8.57001 11.6699 8.84001 11.3999 9.17001 11.3999H21.97C22.3 11.3999 22.57 11.6699 22.57 11.9999C22.57 12.3299 22.3 12.5999 21.97 12.5999ZM9.17001 16.8001H17.97C18.3 16.8001 18.57 16.5301 18.57 16.2001C18.57 15.8701 18.3 15.6001 17.97 15.6001H9.17001C8.84001 15.6001 8.57001 15.8701 8.57001 16.2001C8.57001 16.5301 8.84001 16.8001 9.17001 16.8001ZM9.17001 21H13.97C14.3 21 14.57 20.73 14.57 20.4C14.57 20.07 14.3 19.8 13.97 19.8H9.17001C8.84001 19.8 8.57001 20.07 8.57001 20.4C8.57001 20.73 8.84001 21 9.17001 21Z"
+                />
+              </svg>
+              <!-- <svg
+                class="ml-auto h-6 w-6 stroke-current text-gray-500"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M3 3a1 1 0 000 2h11a1 1 0 100-2H3zM3 7a1 1 0 000 2h5a1 1 0 000-2H3zM3 11a1 1 0 100 2h4a1 1 0 100-2H3zM13 16a1 1 0 102 0v-5.586l1.293 1.293a1 1 0 001.414-1.414l-3-3a1 1 0 00-1.414 0l-3 3a1 1 0 101.414 1.414L13 10.414V16z"
+                ></path>
+              </svg> -->
+            </button>
+          </div>
+          <!-- Email preview block -->
+          <div class="flex-1 overflow-y-auto">
+            <a href="#" class="block px-6 pt-3 pb-4 bg-white border-b">
+              <div class="flex justify-between">
+                <span class="text-sm font-semibold text-gray-900"
+                  >Jonathan Maberry</span
+                >
+                <span class="text-sm text-gray-600">2 days ago</span>
+              </div>
+              <p class="text-sm text-gray-900">
+                Refund
+              </p>
+              <p class="mt-2 text-sm text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                gravida tristique lectus. Nullam in lacus dui...
+              </p>
+            </a>
+            <a href="#" class="block px-6 pt-3 pb-4 bg-white border-b">
+              <div class="flex justify-between">
+                <span class="text-sm font-semibold text-gray-900"
+                  >Jonathan Maberry</span
+                >
+                <span class="text-sm text-gray-600">2 days ago</span>
+              </div>
+              <p class="text-sm text-gray-900">
+                Refund
+              </p>
+              <p class="mt-2 text-sm text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                gravida tristique lectus. Nullam in lacus dui...
+              </p>
+            </a>
+            <a href="#" class="block px-6 pt-3 pb-4 bg-white border-b">
+              <div class="flex justify-between">
+                <span class="text-sm font-semibold text-gray-900"
+                  >Jonathan Maberry</span
+                >
+                <span class="text-sm text-gray-600">2 days ago</span>
+              </div>
+              <p class="text-sm text-gray-900">
+                Refund
+              </p>
+              <p class="mt-2 text-sm text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                gravida tristique lectus. Nullam in lacus dui...
+              </p>
+            </a>
+            <a href="#" class="block px-6 pt-3 pb-4 bg-white border-b">
+              <div class="flex justify-between">
+                <span class="text-sm font-semibold text-gray-900"
+                  >Jonathan Maberry</span
+                >
+                <span class="text-sm text-gray-600">2 days ago</span>
+              </div>
+              <p class="text-sm text-gray-900">
+                Refund
+              </p>
+              <p class="mt-2 text-sm text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                gravida tristique lectus. Nullam in lacus dui...
+              </p>
+            </a>
+            <a href="#" class="block px-6 pt-3 pb-4 bg-white border-b">
+              <div class="flex justify-between">
+                <span class="text-sm font-semibold text-gray-900"
+                  >Jonathan Maberry</span
+                >
+                <span class="text-sm text-gray-600">2 days ago</span>
+              </div>
+              <p class="text-sm text-gray-900">
+                Refund
+              </p>
+              <p class="mt-2 text-sm text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                gravida tristique lectus. Nullam in lacus dui...
+              </p>
+            </a>
+            <a href="#" class="block px-6 pt-3 pb-4 bg-white border-b">
+              <div class="flex justify-between">
+                <span class="text-sm font-semibold text-gray-900"
+                  >Jonathan Maberry</span
+                >
+                <span class="text-sm text-gray-600">2 days ago</span>
+              </div>
+              <p class="text-sm text-gray-900">
+                Refund
+              </p>
+              <p class="mt-2 text-sm text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                gravida tristique lectus. Nullam in lacus dui...
+              </p>
+            </a>
+          </div>
+        </div>
         <!-- Inbox Email Thread -->
-        <div class=""></div>
+        <div class="flex-1 p-8"></div>
       </main>
     </div>
   </div>
